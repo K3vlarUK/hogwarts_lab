@@ -1,6 +1,6 @@
 <% @students.each do |student| %>
 <p>Name: <%= student.format_name() %></p>
 <p>Age: <%= student.age() %></p>
-<p>House: <%= student.house().capitalize() %></p>
+<p>House: <%= student.find_house.house() %></p>
 <hr />
 <% end %>
