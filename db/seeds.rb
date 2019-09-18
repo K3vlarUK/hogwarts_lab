@@ -2,19 +2,19 @@ require_relative('../models/student')
 require_relative('../models/house')
 
 house1 = House.new({
-  'house' => 'gryffindor'
+  'house' => 'Gryffindor'
   })
 
 house2 = House.new({
-  'house' => 'ravenclaw'
+  'house' => 'Ravenclaw'
   })
 
 house3 = House.new({
-  'house' => 'hufflepuff'
+  'house' => 'Hufflepuff'
   })
 
 house4 = House.new({
-  'house' => 'slytherin'
+  'house' => 'Slytherin'
   })
 
 house1.save()

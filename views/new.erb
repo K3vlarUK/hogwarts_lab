@@ -8,7 +8,7 @@
   <label for="house-selection">Select a House: </label>
   <select name="house" id="house-selection">
     <% for house in @houses %>
-    <option value="<%= house.house() %>"><%= house.house() %></option>
+    <option value="<%= house.id() %>"><%= house.house() %></option>
     <% end %>
   </select>
   <input type="submit" value="Add Student">
