@@ -22,3 +22,8 @@ post '/students' do
   @student.save()
   redirect to '/students'
 end
+
+# HOME
+get '/' do
+  erb(:home)
+end
